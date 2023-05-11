@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>portfolio_website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <body>
+        <div id="header">
+           <video loop muted autoplay="autoplay" src="images/avatar2.mp4" type="avatar2/mp4"></video>
+            <div class="container">
+                <nav>
+                    <img src="images/deepak0.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>
+                        <span>W</span> <span>E</span> <span>L</span> <span>C</span> <span>O</span> <span>M</span> <span>E</span>
+
+                    </p>
+                    <h1>
+                        Hello, I am <span>Deepak</span> <br> Full Statck Web Developer
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---- about----- -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/me2.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a Full-Stack Web Developer building the Front-end and Back-End of Websites that leads to 
+                            the success of the overall product.Check out some of my work in the 
+                             <a href="#portfolio">Project</a> section. 
+                             If you have a good opportunity that matches my skills and experience then don't hesitate to  <a href="#contact">Contact</a> me.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend Developer</span><br><p>HTML 5, CSS, Rect JS</p></li>
+                                <li><span>Backend Developer</span><br><p>Mongo DB, Node JS, Express JS</p></li>
+                                <li><span>Languages</span><br><p>C, C++, Javascript, Java</p></li>
+                                <li><span>Tools and Frameworks</span><br><p>Git, Github, Angular, React</p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Development Lead at Google Developer Student Club</span><br><p>August 2022-Present</p></li>
+                                <li><span>Virtual Internship JPMC</span><br><p>September 2022</p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bachelor of Technology ( Computer Sc.)</span><br> <p>Indian Institute of Information Technology, Agartala 2025</p></li>
+                                <li><span>AISSCE (CBSE)</span><br><p>The Aditya Birla Public School, Renukoot 2020</p></li>
+                                <li><span>AISSE (CBSE) </span><br><p>The Aditya Birla Public School, Renukoot 2018</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------portfolio------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This is a clone app and hg</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Web chat</h3>
+                            <p>This is a chat app</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>E-commerce app</h3>
+                            <p>Shopping website</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Back To Top</a>
+            </div>
+        </div>
+
+        <!------------contact-------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-envelope-open"></i>deepak403419@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+918917756429</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-regular fa-envelope"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <a href="images/resume.pdf.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© Copyright 2023. Made with <i class="fa-solid fa-heart"></i> by Deepak</p>
+            </div>
+        
+        </div>
+
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname)
+            {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+<!--  java script for menu tag in responsive mode-->
+        <script>
+            var side= document.getElementById("sidemenu");
+            function openmenu(){
+                side.style.right="0";
+            }
+            
+            function closemenu(){
+                side.style.right="-200px";
+            }
+
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwa6MuUV3jfpwhN4exmavZUlppvbD5zmcwiU2KvMv81TeVHmTTnyvVQKkt90qZ8MsL_yw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully ✔"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+        
+    </body>
+</html>
